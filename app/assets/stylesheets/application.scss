@@ -1,0 +1,25 @@
+@import 'bootstrap';
+
+.container-login {
+  @extend .container-fluid;
+  max-width: 546px;
+  padding: 2rem;
+}
+
+//.mw-md {
+//  max-width: 576px;
+//}
+
+// 「ログインしました」などのフラッシュ用スタイル
+
+.alert-notice {
+  @extend .alert-info;
+  max-width: 546px;
+  padding: 2rem;
+}
+
+.alert-alert {
+  @extend .alert-danger;
+  max-width: 546px;
+  padding: 2rem;
+}
